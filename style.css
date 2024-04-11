@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: black;
+}
+
+body {
+    height: 100vh; /*viewport height*/
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    height: 60px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+li {
+    text-align: center;
+    padding: 14px 12px;
+}
+
+a {
+    text-decoration: none; /*removes the underline from all the links */
+} 
+
+a:hover {
+    text-decoration: underline;
+}
+
+.menu-button {
+    width: 20px;
+    height: 25px;
+}
+
+.sign_in {
+    border: 1px solid transparent;
+    padding: 8px 12px;
+    background-color: #1a73e8;
+    border-radius: 4px;
+    color: white;
+    min-width: 96px;
+    cursor: pointer;
+}
+
+.search_center {
+    margin-top: 200px;
+    height: 60vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search_box {
+    background-color: white;
+    display: flex;
+    background: url(search_icon.png) left no-repeat;
+    background-size: 18px;
+    background-position-y: 12px;
+    background-position-x: 15px;
+    width: 580px;
+    height: 45px;
+    padding-left: 50px;
+    font-size: 1.2rem;
+    border-radius: 45px;
+    border: 1px solid #d3d3d3;
+}
+
+.microphone_icon {
+    height: 32px;
+    width: 32px;
+    margin-top: 5px;
+    margin-right: 8px;
+}
+
+.image_search_icon {
+    height: 23px;
+    width: 23px;
+    margin-top: 10px;
+}
+
+.google-logo {
+    height: 92px;
+    width: 272px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 85%;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.microphone_icon {
+    width: 35px;
+}
+
+.buttons {
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.search_button {
+    border: 1px solid transparent;
+    padding: 8px 12px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #3c4043;
+}
+
+button:hover {
+    border: 1px solid #d3d3d3;
+}
+
+footer {
+    width: 100%;
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+}
+
+.panel {
+    border-bottom: 1px solid #ddd;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.leaf_icon {
+    width: 12px;
+}
